@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Basis Data - Sapphira</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fff0f6;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #ff69b4, #ff85c1);
+      color: white;
+      padding: 30px;
+      text-align: center;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      letter-spacing: 1px;
+    }
+    nav {
+      background: #ff99cc;
+      padding: 12px;
+      text-align: center;
+      border-bottom: 3px solid #ff69b4;
+    }
+    nav a {
+      color: white;
+      margin: 0 12px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #333;
+    }
+    .container {
+      max-width: 900px;
+      margin: 25px auto;
+      padding: 25px;
+      background: white;
+      border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    h2 {
+      color: #ff4da6;
+      border-left: 6px solid #ff80bf;
+      padding-left: 10px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #ff99cc;
+      color: white;
+      margin-top: 30px;
+      border-top-left-radius: 30px;
+      border-top-right-radius: 30px;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blog Basis Data</h1>
+    <p>oleh SAPPHIRA - 24416255201148 - IF24E</p>
+  </header>
+
+  <nav>
+    <a href="#harapan">Harapan</a>
+    <a href="#basisdata">Basis Data</a>
+    <a href="#conceptual">Conceptual DB</a>
+    <a href="#physical">Physical Model</a>
+    <a href="#about">Tentang Saya</a>
+  </nav>
+
+  <div class="container">
+    <section id="harapan">
+      <h2>🌟 Harapan dari Mata Kuliah Basis Data</h2>
+      <p>
+        Semoga dengan belajarnya saya di mata kuliah Basis Data ini,
+        saya mampu memahami bagaimana cara mengatur, menyimpan, dan mengelola data dengan baik.
+        Tidak hanya sekadar mengerti teori, tetapi juga bisa praktek langsung membuat dan memakai database dengan benar.
+        Dengan harapan ilmu yang bisa terpakai saat berkerja, terlebih hampir semua bidang butuh mengelola data.
+        Dan semoga setelah mengikuti pembelajaran Basis Data ini, saya bisa mengerti dan menggunakan SQL, 
+        mengerti konsep relasi antar tabel, dan yang paling penting, tidak panik jika terjadi error.
+      </p>
+    </section>
+
+    <section id="basisdata">
+      <h2>❓ Apa Itu Basis Data?</h2>
+      <p>
+        Basis data adalah kumpulan data yang disusun secara terorganisir agar mudah dikelola.
+        Dengan bantuan perangkat lunak <i>Database Management System</i> (DBMS),
+        data bisa ditambah, diubah, atau dihapus tanpa berantakan. Contoh DBMS:
+        <b>MySQL</b>, <b>PostgreSQL</b>, <b>Oracle</b>.
+      </p>
+    </section>
+
+    <section id="conceptual">
+      <h2>🗂️ Conceptual Database</h2>
+      <p>
+        Conceptual Database adalah rancangan awal dari database yang menggambarkan
+        entitas, atribut, dan hubungan antar entitas. Biasanya divisualisasikan dalam
+        bentuk ERD (<i>Entity Relationship Diagram</i>). Conceptual DB itu dimaksudkan gambaran umum dari sebuah basis data. 
+        Seperti belum sampai ke teknis kayak tabel, kolom, atau SQL, 
+        tapi lebih menjadi peta konsep: entitas apa aja yang ada, bagaimana hubungan antar entitas, dan informasi apa yang perlu disimpen.
+        Seperti peta konsep sebelum database dibangun beneran.
+      </p>
+    </section>
+
+    <section id="physical">
+      <h2>💾 Physical Model</h2>
+      <p>
+        Physical Model adalah implementasi nyata dari basis data pada sistem manajemen database. 
+        Model ini menjelaskan tabel, tipe data, indeks, dan bagaimana data disimpan di dalam komputer. 
+        Physical Model juga menjadi level paling detail dari desain database. 
+        Jika sebelumnya ada conceptual (gambaran umum) dan logical (lebih teknis), 
+        physical ini sudah masuk ke dalam data bener-bener disimpen di komputer.
+      </p>
+    </section>
+
+    <section id="about">
+      <h2>👤 Tentang Saya</h2>
+      <ul>
+        <li>Nama: Sapphira</li>
+        <li>NIM: 24416255201148</li>
+        <li>Kelas: IF24E</li>
+        <li>Fun fact: Blog ini saya buat tidak hanya untuk memenuhi tugas, tetapi juga untuk menjadi catatan
+          pribadi jika suatu saat belajar ulang tentang database.</li>
+      </ul>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Blog Basis Data - Dibuat dengan 💖 untuk Tugas Kuliah</p>
+  </footer>
+</body>
+</html>
